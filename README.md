@@ -1,3 +1,3 @@
-# Rinkliavos už atleikas skaičiuoklė
+# Rinkliavos už atliekas skaičiuoklė
 
-Skaičiuoja įmokas už komunalines atliekas Vilniaus mieste. Ištaisyti vasa.lt esantys netikslumai.
+Skaičiuoja rinkliavos įmokas už komunalines atliekas Vilniaus mieste. Ištaisyti vasa.lt esantys netikslumai.
