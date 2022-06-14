@@ -33,8 +33,8 @@ const objektoTipas = [];
 
     let val;
 
-        if(objektoTipas[item].g == 3) val = 1 * objektoTipas[item].c;
-        else if(objektoTipas[item].g == 4) val = 12 * objektoTipas[item].c;
+        if(objektoTipas[item].g === 3) val = 1 * objektoTipas[item].c;
+        else if(objektoTipas[item].g === 4) val = 12 * objektoTipas[item].c;
         else val = round(size * objektoTipas[item].c *12, 2 );
 
         return val;
@@ -43,10 +43,10 @@ const objektoTipas = [];
     function calc_second_part(size, item) {
         let val;
 
-        if(objektoTipas[item].g == 1) val = round(32.5 * 0.0850 *12, 2) ;
-        else if(objektoTipas[item].g== 2) val = round(size * objektoTipas[item].v * 12, 2) ;
-        else if(objektoTipas[item].g== 3) val = round(32.5 * 0.0850 *12, 2) ;
-        else if(objektoTipas[item].g == 4) val = 1 * objektoTipas[item].v;
+        if(objektoTipas[item].g === 1) val = round(32.5 * 0.0850 *12, 2) ;
+        else if(objektoTipas[item].g=== 2) val = round(size * objektoTipas[item].v * 12, 2) ;
+        else if(objektoTipas[item].g=== 3) val = round(32.5 * 0.0850 *12, 2) ;
+        else if(objektoTipas[item].g === 4) val = 1 * objektoTipas[item].v;
 
         return val;
     }
