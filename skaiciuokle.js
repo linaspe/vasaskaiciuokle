@@ -1,6 +1,4 @@
-
-
-   let objektoTipas = [];
+const objektoTipas = [];
 
     objektoTipas[1] = {c: 0.0372, v: 0.0274, g: 2, t:`Gyvenamoji – daugiabučiai pastatai`};
     objektoTipas[2] = {c: 0.0224, v: 0.0165, g: 1, t:`Gyvenamoji – individualūs namai`};

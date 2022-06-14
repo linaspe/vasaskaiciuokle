@@ -5,11 +5,8 @@ for (let i = 1; i < objektoTipas.length; ++i) {
 
 }
 
-
-let forma = document.getElementById('myForm')
-
-forma.addEventListener("submit", skaiciuoti)
-
+dropdown.addEventListener("change", skaiciuoti)
+document.getElementById('myForm').addEventListener("submit", skaiciuoti,)
 
 function skaiciuoti(a) {
 
